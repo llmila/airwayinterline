@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Airway Interline</title>
+        <link rel="apple-touch-icon" sizes="180x180" href="./img/logo/favicon_io_2/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="./img/logo/favicon_io_2/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="./img/logo/favicon_io_2/favicon-16x16.png">
+        <link rel="manifest" href="./img/logo/favicon_io_2/site.webmanifest">
+        <link rel="stylesheet" href="./css/reset.css">
+        <link rel="stylesheet" href="./css/cookie.css">
+       
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" />
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/js/all.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.3/js/bootstrap.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.3/css/bootstrap.min.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css"/>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.css"/>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+        <style>
+            * {box-sizing: border-box}
+            body {font-family: Verdana, sans-serif; margin:0}
+            .mySlides {display: none}
+            img {vertical-align: middle;}
+            
+            /* Slideshow container */
+            .slideshow-container {
+              max-width: 1000px;
+              position: relative;
+              margin: auto;
+            }
+            
+            /* Next & previous buttons */
+            .prev, .next {
+              cursor: pointer;
+              position: absolute;
+              top: 50%;
+              width: auto;
+              padding: 16px;
+              margin-top: -22px;
+              color: white;
+              font-weight: bold;
+              font-size: 18px;
+              transition: 0.6s ease;
+              border-radius: 0 3px 3px 0;
+              user-select: none;
+            }
+            
+            /* Position the "next button" to the right */
+            .next {
+              right: 0;
+              border-radius: 3px 0 0 3px;
+            }
+            
+            /* On hover, add a black background color with a little bit see-through */
+            .prev:hover, .next:hover {
+              background-color: rgba(0,0,0,0.8);
+            }
+            /* Fading animation */
+            .fade {
+              animation-name: fade;
+              animation-duration: 1.5s;
+            }
+            
+            @keyframes fade {
+              from {opacity: .4} 
+              to {opacity: 1}
+            }
+            
+            /* On smaller screens, decrease text size */
+            @media only screen and (max-width: 300px) {
+              .prev, .next,.text {font-size: 11px}
+            }
+        </style>
+
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+        <script src="/js/wow.min.js"></script>
+        <script>
+            new WOW().init();
+            </script>
+
+        <link href="https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css" rel="stylesheet" />
+        <link
+        rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+        />
+    </head>
+<body>
+
+  
+
+    <!-- Header start -->
+    <header class="header">
+      <div class="wrapper">
+          <div class="header__wrapper">
+              <div class="header__logo">
+                  <a href="/" class="header__logo-link">
+                      <img src="./img/logo/logo.png" alt="Airway" class="header__logo-pic">
+                  </a>
+              </div>
+              <nav class="header__nav">
+                  <ul class="header__list">
+                      <li class="header__item">
+                          <a href="./index.html" class="header__link js-scroll">Home</a>
+                      </li>
+                      <li class="header__item">
+                          <a href="./about.html" class="header__link js-scroll">About</a>
+                      </li>
+                      <li class="header__item">
+                          <a href="./services.html" class="header__link js-scroll">Services</a>
+                      </li>
+                      <li class="header__item">
+                          <a href="./contact.html" class="header__link js-scroll">Contact</a>
+                      </li>
+                      <li class="header__item">
+                          <a href="./login.html" class="header__link js-scroll">Login</a>
+                      </li>
+
+                      <li class="header__lng">
+                          <a href="#!" class="header__lng-link js-scroll">EN</a>
+                      <a href="#!" class="header__lng-link js-scroll">FR</a>
+                      </li>
+
+                      <!-- <li class="header__item">
+                          <a href="lng" class="header__link js-scroll">EN</a>
+                      </li>
+                      <li class="header__item">
+                          <a href="lng" class="header__link js-scroll">FR</a>
+                      </li> -->
+
+                  </ul>
+                  <div class="header__nav-close">
+                      <span class="header__nav-close-line"></span>
+                      <span class="header__nav-close-line"></span>
+                  </div>
+              </nav>
+              <div class="header__burger burger">
+                  <span class="burger__line burger__line_first"></span>
+                  <span class="burger__line burger__line_second"></span>
+                  <span class="burger__line burger__line_third"></span>
+              </div>
+          </div>
+      </div>
+  </header>
+  <!-- Header end -->
+  <main class="main">
+      <!-- Intro start -->
+      <section class="intro" id="sign-in">
+          <div class="wrapper">
+              <h1 class="intro__title wow animate__animated animate__fadeInDown">
+                  FULL-SERVICE AIRPORT CONCIERGE
+              </h1>
+              <p class="intro__subtitle wow animate__animated animate__fadeInDown">
+                  Airway Interline offers assistance to airlines to provide distress passengers with a high level concierge service to organize hotel accommodation and transport.
+              </p>
+              <form class="search-form">
+                  <fieldset class="search-form__wrap">
+                      <p class="search-form__info">
+                          <input type="text" name="user-review" class="text search-form__field" placeholder="How can we help you?"> 
+
+                          <button type="submit" class="search-form__submit">CONTACT US</button> 
+                      </p>
+                  </fieldset>
+              </form>
+          </div>
+      </section>
+      <!-- Intro end -->
+
+      <div class="cookie__wrapper">
+        <header class="cookie__header">
+          <i class="bx bx-cookie"></i>
+          <h2>Cookies Consent</h2>
+        </header>
+  
+        <div class="data">
+          <p>Our website uses cookies to provide your browsing experience and relevant information. <a href="#"> Read more...</a></p>
+        </div>
+  
+        <div class="buttons">
+          <button class="button" id="acceptBtn">Accept</button>
+          <button class="button" id="declineBtn">Decline</button>
+        </div>
+      </div>
+
+      <!-- Benefits start -->        
+      <section class="benefits">
+          <div class="benefits__wrap">
+              <h2 class="benefits__title">
+                  Our Services
+              </h2>
+              <div class="benefits__cards wow animate__animated animate__fadeInUp">
+                  <div class="benefits__card">
+                      <div class="benefits__card-pic">
+                          <img src="./img/benef/01.png" alt="Transportation" class="benefits__card-thumb">
+                      </div>
+                      <h3 class="benefits__card-title">
+                          Transportation
+                      </h3>
+                      <p class="benefits__card-desc">
+                          We offer diverse transport options, from buses to limousines, based on the airline's needs we provide solutions that offer substantial savings.
+                      </p>
+                      <a href="#!" class="benefits__card-more">
+                          LEARN MORE
+                      </a>
+                  </div>
+                  <div class="benefits__card">
+                      <div class="benefits__card-pic">
+                          <img src="./img/benef/2.jpg" alt="Hotel Accommodation" class="benefits__card-thumb">
+                      </div>
+                      <h3 class="benefits__card-title">
+                          Hotel Accommodation
+                      </h3>
+                      <p class="benefits__card-desc">
+                          Our company has a large inventory of hotel accommodations, ensuring a high level of comfort for each and every passenger, including families with children and passengers with special needs.
+                      </p>
+                      <a href="#!" class="benefits__card-more">
+                          LEARN MORE
+                      </a>
+                  </div>
+                  <div class="benefits__card">
+                      <div class="benefits__card-pic">
+                          <img src="./img/benef/3.jpg" alt="Cuisine" class="benefits__card-thumb">
+                      </div>
+                      <h3 class="benefits__card-title">
+                              Cuisine
+                      </h3>
+                      <p class="benefits__card-desc">
+                          Along with transportation and hotel accommodation, Airway Interline also ensures to provide meals that caters to the dietary needs of passengers of all ages.
+                      </p>
+                      <a href="#!" class="benefits__card-more">
+                          LEARN MORE
+                      </a>
+                  </div>
+              </div>
+          </div>
+      </section>
+      <!-- Benefits end --> 
+
+
+    <!-- <div class="cookie__wrapper">
+      <header>
+        <i class="bx bx-cookie"></i>
+        <h2>Cookies Consent</h2>
+      </header>
+
+      <div class="data">
+        <p>Our website uses cookies to provide your browsing experience and relevant information. <a href="#"> Read more...</a></p>
+      </div>
+
+      <div class="buttons">
+        <button class="button" id="acceptBtn">Accept</button>
+        <button class="button" id="declineBtn">Decline</button>
+      </div>
+    </div> -->
+
+    <!-- <div id="cookiePopup" class="hide">
+      <img src="./img/ico/cookie.png" />
+      <p>
+        Our website uses cookies to provide your browsing experience and
+        relevant information. Before continuing to use our website, you agree &
+        accept of our <a href="#">Cookie Policy & Privacy.</a>
+      </p>
+      <button id="acceptCookie">Accept</button>
+    </div> -->
+    <!-- Script -->
+    <script src="./js/cookie.js"></script>
+  </body>
+</html>

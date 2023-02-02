@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Airway Interline</title>
+        <link rel="apple-touch-icon" sizes="180x180" href="./img/logo/favicon_io_2/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="./img/logo/favicon_io_2/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="./img/logo/favicon_io_2/favicon-16x16.png">
+        <link rel="manifest" href="./img/logo/favicon_io_2/site.webmanifest">
+        <link rel="stylesheet" href="./css/reset.css">
+        <link rel="stylesheet" href="./css/contact.css">
+        
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" />
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/js/all.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.3/js/bootstrap.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.3/css/bootstrap.min.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css"/>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.css"/>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+        <style>
+            * {box-sizing: border-box}
+            body {font-family: Verdana, sans-serif; margin:0}
+            .mySlides {display: none}
+            img {vertical-align: middle;}
+            
+            /* Slideshow container */
+            .slideshow-container {
+              max-width: 1000px;
+              position: relative;
+              margin: auto;
+            }
+            
+            /* Next & previous buttons */
+            .prev, .next {
+              cursor: pointer;
+              position: absolute;
+              top: 50%;
+              width: auto;
+              padding: 16px;
+              margin-top: -22px;
+              color: white;
+              font-weight: bold;
+              font-size: 18px;
+              transition: 0.6s ease;
+              border-radius: 0 3px 3px 0;
+              user-select: none;
+            }
+            
+            /* Position the "next button" to the right */
+            .next {
+              right: 0;
+              border-radius: 3px 0 0 3px;
+            }
+            
+            /* On hover, add a black background color with a little bit see-through */
+            .prev:hover, .next:hover {
+              background-color: rgba(0,0,0,0.8);
+            }
+            /* Fading animation */
+            .fade {
+              animation-name: fade;
+              animation-duration: 1.5s;
+            }
+            
+            @keyframes fade {
+              from {opacity: .4} 
+              to {opacity: 1}
+            }
+            
+            /* On smaller screens, decrease text size */
+            @media only screen and (max-width: 300px) {
+              .prev, .next,.text {font-size: 11px}
+            }
+        </style>
+
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+        <script src="/js/wow.min.js"></script>
+        <script>
+            new WOW().init();
+            </script>
+    </head>
+<body>
+    <!-- Header start -->
+    <header class="header">
+        <div class="wrapper">
+            <div class="header__wrapper">
+                <div class="header__logo">
+                    <a href="/" class="header__logo-link">
+                        <img src="./img/logo/logo.png" alt="Airway" class="header__logo-pic">
+                    </a>
+                </div>
+                <nav class="header__nav">
+                    <ul class="header__list">
+                        <li class="header__item">
+                            <a href="./index.html" class="header__link js-scroll">Home</a>
+                        </li>
+                        <li class="header__item">
+                            <a href="./about.html" class="header__link js-scroll">About</a>
+                        </li>
+                        <li class="header__item">
+                            <a href="./services.html" class="header__link js-scroll">Services</a>
+                        </li>
+                        <li class="header__item">
+                            <a href="./contact.html" class="header__link js-scroll">Contact</a>
+                        </li>
+                        <li class="header__item">
+                            <a href="./login.html" class="header__link js-scroll">Login</a>
+                        </li>
+
+                        <li class="header__lng">
+                            <a href="#!" class="header__lng-link js-scroll">EN</a>
+                        <a href="#!" class="header__lng-link js-scroll">FR</a>
+                        </li>
+
+                        <!-- <li class="header__item">
+                            <a href="lng" class="header__link js-scroll">EN</a>
+                        </li>
+                        <li class="header__item">
+                            <a href="lng" class="header__link js-scroll">FR</a>
+                        </li> -->
+
+                    </ul>
+                    <div class="header__nav-close">
+                        <span class="header__nav-close-line"></span>
+                        <span class="header__nav-close-line"></span>
+                    </div>
+                </nav>
+                <div class="header__burger burger">
+                    <span class="burger__line burger__line_first"></span>
+                    <span class="burger__line burger__line_second"></span>
+                    <span class="burger__line burger__line_third"></span>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- Header end -->
+    <main class="main">
+        <!-- Intro start -->
+        <section class="intro" id="sign-in">
+            <div class="wrapper-full">
+                <h1 class="intro__title wow animate__animated animate__fadeInDown">
+                    GET IN TOUCH WITH US
+                </h1>
+                <p class="intro__subtitle wow animate__animated animate__fadeInDown">
+                    If you encounter any problem, feel free to contact
+                </p>
+                <div class="contact-wrap">
+                    <div class="contact-in wow animate__animated animate__fadeInDown">
+                        <h1>Contact Info</h1>
+                        <h2><i class="fa-solid fa-phone"></i> Phone</h2>
+                        <p>1-905-672-1195 <br>
+                            1-888-333-5559</p>
+                        <h2><i class="fa-solid fa-envelope"></i> Email</h2>
+                        <p>info@airwayinterline.com</p>
+                        <h2><i class="fa-solid fa-location-dot"></i> Address</h2>
+                        <p class="contacts__address-toronto">
+                            5925 Airport Road, Suite 100 Mississauga, ON, L4V 1W1
+                        </p>
+                        <p class="contacts__address-montreal">
+                            975 Romeo-Vachon Blvd.N, Suite 256, Dorval QC, H4Y 1H1
+                        </p>
+                        <ul>
+                            <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
+                            <li><a href="#"><i class="fa-brands fa-google"></i></a></li>
+                            <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                            <li><a href="#"><i class="fa-brands fa-linkedin"></i></a></li>
+                        </ul>
+                    </div>
+                    <div class="contact-in">
+                        <h1>Send a Message</h1>
+                        <form action="" method="POST" class="contacts__form">
+                            <div class="form__row">
+                                <div class="form__group">
+                                    <input type="name" class="contact-in-input" placeholder="First Name">
+                                    <!-- 
+                                    <label for="" class="label">
+                                        Name
+                                    </label>
+                                    -->
+                                </div>
+                                
+                                <div class="form__group">
+                                    <input type="last name" class="contact-in-input" placeholder="Last Name">
+                                    <!-- 
+                                    <label for="" class="label">
+                                        Last name
+                                    </label>
+                                -->
+                                </div>
+                            </div>
+                            <div class="form__row">
+                                <div class="form__group">
+                                    <input type="email" class="contact-in-input" placeholder="Email">
+                                    <!-- 
+                                    <label for="" class="label">
+                                        Email
+                                    </label>
+                                    -->
+                                </div>
+                                <div class="form__group">
+                                    <input type="phone" class="contact-in-input" placeholder="Phone">
+                                    <!-- 
+                                    <label for="" class="label">
+                                        Phone
+                                    </label>
+                                -->
+                                </div>
+                            </div>
+                            <div class="form__row">
+                                <div class="form__group">
+                                    <textarea name="" class="contact-in-textarea" placeholder="Message"></textarea>
+                                    <!-- 
+                                    <label for="" class="label">
+                                        Message
+                                    </label>
+                                    -->
+                                </div>
+                            </div>
+                            <button class="contact-in-btn" type="submit">
+                                Send
+                            </button>
+                        </form>
+                    </div>
+                    <div class="contact-in wow animate__animated animate__fadeInDown">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d11540.408848758081!2d-79.6097621!3d43.6876384!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x7d659d14fc6ae660!2sAirway%20Interline!5e0!3m2!1sru!2sca!4v1671484504644!5m2!1sru!2sca" width="100%" height="auto" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </section>
+        <!-- Intro end -->
+<!--Contacts start-->
+<!-- <section class="contacts"> -->
+    <!-- <div class="benefits__wrap"> -->
+        <!-- <div class="contact-wrap">
+            <div class="contact-in wow animate__animated animate__fadeInDown">
+                <h1>Contact Info</h1>
+                <h2><i class="fa-solid fa-phone"></i> Phone</h2>
+                <p>1-905-672-1195 <br>
+                    1-647-967-1195</p>
+                <h2><i class="fa-solid fa-envelope"></i> Email</h2>
+                <p>operations@airwayinterline.com</p>
+                <h2><i class="fa-solid fa-location-dot"></i> Address</h2>
+                <p class="contacts__address-toronto">
+                    5925 Airport Road, Suite 100 Mississauga, ON, L4V 1W1
+                </p>
+                <p class="contacts__address-montreal">
+                    975 Romeo-Vachon Blvd.N, Suite 256, Dorval QC, H4Y 1H1
+                </p>
+                <ul>
+                    <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
+                    <li><a href="#"><i class="fa-brands fa-google"></i></a></li>
+                    <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                    <li><a href="#"><i class="fa-brands fa-linkedin"></i></a></li>
+                </ul>
+            </div>
+            <div class="contact-in">
+                <h1>Send a Message</h1>
+                <form action="" class="contacts__form">
+                    <div class="form__row">
+                        <div class="form__group">
+                            <input type="name" class="contact-in-input" placeholder="Full Name"> -->
+                            <!-- 
+                            <label for="" class="label">
+                                Name
+                            </label>
+                            -->
+                        <!-- </div> -->
+                        
+                        <!-- <div class="form__group">
+                            <input type="last name" class="contact-in-input" placeholder="Last Name"> -->
+                            <!-- 
+                            <label for="" class="label">
+                                Last name
+                            </label>
+                        -->
+                        <!-- </div>
+                    </div>
+                    <div class="form__row">
+                        <div class="form__group">
+                            <input type="email" class="contact-in-input" placeholder="Email"> -->
+                            <!-- 
+                            <label for="" class="label">
+                                Email
+                            </label>
+                            -->
+                        <!-- </div>
+                        <div class="form__group">
+                            <input type="phone" class="contact-in-input" placeholder="Phone"> -->
+                            <!-- 
+                            <label for="" class="label">
+                                Phone
+                            </label>
+                        -->
+                        <!-- </div>
+                    </div>
+                    <div class="form__row">
+                        <div class="form__group">
+                            <textarea name="" class="contact-in-textarea" placeholder="Message"></textarea> -->
+                            <!-- 
+                            <label for="" class="label">
+                                Message
+                            </label>
+                            -->
+                        <!-- </div>
+                    </div>
+                    <button class="contact-in-btn" type="submit">
+                        Send
+                    </button>
+                </form>
+            </div>
+            <div class="contact-in wow animate__animated animate__fadeInDown">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d11540.408848758081!2d-79.6097621!3d43.6876384!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x7d659d14fc6ae660!2sAirway%20Interline!5e0!3m2!1sru!2sca!4v1671484504644!5m2!1sru!2sca" width="100%" height="auto" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+    </div>
+ </section> -->
+    <!--Contacts end-->
+<!--footer start-->
+<footer class="footer">
+    <div class="wrapper">
+        <div class="footer__item wow animate__animated animate__backInUp">
+            <div class="footer__logo">
+                <img src="./img/logo/logo1 1.png" height="100" width="250" alt="logo" class="footer__logo-pic">
+            </div>
+            <nav class="footer__nav">
+                <ul class="footer__menu">
+                    <li class="footer__menu-item">
+                        <h3 class="footer__menu-title">
+                            Company
+                        </h3>
+                    </li>
+                    <li class="footer__menu-item">
+                        <a href="#!" class="footer__menu-link"> About</a>
+                    </li>
+                    <li class="footer__menu-item">
+                        <a href="#!" class="footer__menu-link"> Partners</a>
+                    </li>  
+                    <li class="footer__menu-item">
+                        <a href="#!" class="footer__menu-link"> Careers</a>
+                    </li>
+                </ul>
+                <ul class="footer__menu">
+                    <li class="footer__menu-item">
+                        <h3 class="footer__menu-title">
+                            Terms & Conditions
+                        </h3>
+                    </li>
+                    <li class="footer__menu-item">
+                        <a href="#!" class="footer__menu-link"> Terms and Conditions</a>
+                    </li>
+                    <li class="footer__menu-item">
+                        <a href="#!" class="footer__menu-link"> Privacy Policy</a>
+                    </li>  
+                    <li class="footer__menu-item">
+                        <a href="#!" class="footer__menu-link"> Cookie Policy</a>
+                    </li>
+                </ul>
+                <ul class="footer__menu">      
+                    <li class="footer__menu-item">
+                        <h3 class="footer__menu-title">
+                            Help
+                        </h3>
+                    </li>
+                    <li class="footer__menu-item">
+                        <a href="#!" class="footer__menu-link"> Contact Us</a>
+                    </li>
+                    <li class="footer__menu-item">
+                        <a href="#!" class="footer__menu-link"> Location</a>
+                    </li>  
+                    <li class="footer__menu-item">
+                        <a href="#!" class="footer__menu-link"> Reviews</a>
+                    </li>            
+                </ul>
+            </nav>
+        </div>
+        <hr class="footer__divider">
+        <div class="footer__bottom">
+            <span class="copyright">
+                Copyright ©2018 Designed by Airway Interline Services Inc.
+            </span>
+            <ul class="footer__list">
+                <li class="footer__list-item">
+                    <a href="#" class="footer__list-link">
+                         <i class="fab fa-facebook-square"></i>
+                    </a>
+                </li>
+                <li class="footer__list-item">
+                    <a href="#" class="footer__list-link">
+                         <i class="fab fa-linkedin"></i>
+                    </a>
+                </li>
+                <li class="footer__list-item">
+                    <a href="#" class="footer__list-link">
+                         <i class="fab fa-google-plus-square"></i>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</footer>
+<!--footer end-->
+
+<script>
+(function () {
+    const header = document.querySelector('header');
+    window.onscroll = () => {
+        if (window.pageYOffset > 80) {
+            header.classList.add('header_active')
+        } else{
+            header.classList.remove('header_active')
+        }
+    }
+}());
+</script>
+
+    <script src="./js/main.js"></script>
+</body>
+</html>
